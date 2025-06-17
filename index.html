@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="image/tb1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Dr. Tatiana Bosch</title>
+</head>
+<body>
+<nav>
+    <div class="container">
+        <div class="logo-group">
+            <a href="/" class="logo-merge">
+                <div class="logo-wrapper">
+                    <img src="image/tb1.png" class="logo-img first-img" alt="Logo without text">
+                    <img src="image/tb1.png" class="logo-img second-img" alt="Logo with text">
+                </div>
+            </a>
+        </div>
+        <ul class="navlinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#our-services">Services</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section id="hero" class="section fullscreen">
+    <div class="hero-content">
+        <div class="hero-name-behind">TATIANA BOSCH</div>
+        <div class="hero-img-container relative">
+            <img src="image/tatiana.png" alt="Doctor" class="hero-image relative z-10">
+        </div>
+    </div>
+</section>
+<div class="hero-text">
+    <p class="hero-greet">Hello!</p>
+    <p class="text">I'm <span class="highlight-name">Dr. Tatiana Zhelninova Bosch</span>.</p>
+    <p class="about-me">A passionate Medical Doctor and Regenerative Medicine Specialist based in Bangkok. I bring 30+ years of international healthcare experience focused on innovation, cardiology, and patient-centered care.</p>
+</div>
+<section id="our-services" class="section services">
+    <div class="services-container">
+        <h2 class="section-title">My Specialties</h2>
+        <div class="services-grid">
+            <div class="service-card" data-specialty="regenerative">
+                <i class="fas fa-dna"></i>
+                <h5>Regenerative Therapies</h5>
+                <p>Advanced stem cell and PRP treatments for joint pain, anti-aging, and recovery.</p>
+            </div>
+            <div class="service-card" data-specialty="cardio">
+                <i class="fas fa-heartbeat"></i>
+                <h5>Cardiovascular Health</h5>
+                <p>Comprehensive management and prevention of heart disease and hypertension.</p>
+            </div>
+            <div class="service-card" data-specialty="hormonal">
+                <i class="fas fa-balance-scale"></i>
+                <h5>Hormonal Balance</h5>
+                <p>Personalized hormone therapy for vitality, mood, and overall wellness.</p>
+            </div>
+            <div class="service-card" data-specialty="integrative">
+                <i class="fas fa-leaf"></i>
+                <h5>Integrative Medicine</h5>
+                <p>Combining modern diagnostics with holistic healing techniques.</p>
+            </div>
+            <div class="service-card" data-specialty="antiaging">
+                <i class="fas fa-user-clock"></i>
+                <h5>Anti-Aging Solutions</h5>
+                <p>Tailored strategies to slow aging, boost energy, and enhance skin and vitality.</p>
+            </div>
+            <div class="service-card" data-specialty="online">
+                <i class="fas fa-laptop-medical"></i>
+                <h5>Online Consultations</h5>
+                <p>One-on-one virtual sessions for global clients needing trusted medical guidance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="modals-container"></div>
+<section id="contact-us" class="section contact">
+    <div class="contact-container">
+        <div class="contact-quote">
+            “In a world full of uncertainty, finding a doctor who truly listens, leads with compassion, and embraces innovation is rare.
+            Dr. Tatiana’s care goes beyond treatment — it’s a journey toward healing, guided by expertise and heart.
+            Reach out today and take the first step toward a healthier future.”
+        </div>
+        <div class="contact-image">
+            <img src="image/tatianacontact.png" alt="Contact Dr. Tatiana">
+        </div>
+    </div>
+</section>
+<footer>
+  <div class="footer-container">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Bangkok, Thailand</span>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone-alt"></i>
+        <span>+971 58 520 21 19</span>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:tzhelninova@mail.ru" class="contact-email">tzhelninova@mail.ru</a>
+      </div>
+    </div>
+
+    <!-- Contact Me Form -->
+    <div class="footer-contact-form">
+      <h4>Contact Me</h4>
+      <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=61577121490119" target="_blank"><img src="image/facebook.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/dr.tatianabosch/" target="_blank"><img src="image/instagram.png" alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/dr-tatiana-bosch-md-phd-75421b83/" target="_blank"><img src="image/linkedin.png" alt="LinkedIn"></a>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>
