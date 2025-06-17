@@ -114,12 +114,18 @@
     <!-- Contact Me Form -->
     <div class="footer-contact-form">
       <h4>Contact Me</h4>
-      <form action="contact.php" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <form action="https://formsubmit.co/allanpanduma@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+
+          <!-- optional: prevent spam -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="drtatianabosch.lovestoblog.com">
+
+          <button type="submit">Send Message</button>
+        </form>
+
     </div>
 
 
